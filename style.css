@@ -1,0 +1,168 @@
+/* Style webpage*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #2b2b2b;
+  color: rgb(240, 239, 239);
+  font-family: "Roboto", sans-serif;
+}
+
+/* Style navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Roboto";
+  font-size: large;
+
+  background-image: url("backgroundimghtmlcssjs.jpg");
+  background-repeat: repeat;
+  background-size: 6%;
+}
+
+li {
+  float: right;
+}
+
+.navbar a.active_col {
+  background-color: rgb(95, 182, 8);
+  color: aliceblue;
+}
+.navbar a.active_col:hover {
+  background-color: rgb(72, 145, 0);
+}
+
+.navbar h1.title {
+  text-align: left;
+  color: rgb(241, 247, 245);
+  margin-left: 25px;
+  size: 50px;
+  font-family: "Verdana, sans-serif";
+}
+
+li a {
+  display: block;
+  color: rgb(252, 248, 248);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(88, 88, 88);
+}
+
+/* Style Home section */
+.Home {
+  display: flex;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url("backgroundimg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.s_Home {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.s_About {
+  display: flex;
+  margin: 30px;
+}
+
+/* Style work section */
+.Work {
+  display: block;
+  margin-left: 30px;
+}
+.s_Work {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.ss_Work1 {
+  display: block;
+  margin-left: 0px;
+  margin-right: 25px;
+}
+.ss_Work2 {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.img_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Work {
+  display: block;
+}
+
+/* Style resume section */
+.Resume {
+  display: block;
+}
+
+/* Style contact inputs */
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #7bdb7f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #35a33b;
+}
+
+/* Style the container/contact section */
+.container {
+  background-color: #2b2b2b;
+  padding: 10px;
+  width: 50%;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Style footer section */
+footer {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
